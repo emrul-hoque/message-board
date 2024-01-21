@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+.env
+
+# Database
+*.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Virtual environment
+venv/
+env/
+*.venv/
+
+# IDE (e.g., PyCharm) configurations
+.idea/
+
+# Editor (e.g., Visual Studio Code) configuration
+.vscode/
+
+# Logs
+*.log
+
+# Secret key
+*.secret
+
+# Ignore local .env file
+.env.local
+
+# Ignore Docker Compose override file
+docker-compose.override.yml
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore poetry virtual environment
+poetry.lock
+pyproject.toml
+
+# Ignore Celery beat schedule file
+celerybeat-schedule
